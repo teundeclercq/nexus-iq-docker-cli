@@ -29,5 +29,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ${{ secrets.DOCKERHUB_USERNAME }}/shfmt:${{ steps.tag.outputs.TAG }}
-            ${{ secrets.DOCKERHUB_USERNAME }}/shfmt:latest
+            ${{ secrets.DOCKERHUB_USERNAME }}/nexus-iq-docker-cli:${{ steps.tag.outputs.TAG }}
+            ${{ secrets.DOCKERHUB_USERNAME }}/nexus-iq-docker-cli:latest
