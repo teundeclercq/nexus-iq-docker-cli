@@ -1,5 +1,5 @@
 # Dockerfile
-ARG NEXUS_IQ_CLI_VERSION=2.7.0-01-alpine
+ARG NEXUS_IQ_CLI_VERSION=2.7.0-01
 
 
 FROM sonatype/nexus-iq-cli:${NEXUS_IQ_CLI_VERSION}
